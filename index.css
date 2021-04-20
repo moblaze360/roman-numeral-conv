@@ -1,0 +1,64 @@
+@font-face {
+  font-family: myFont;
+  src: url(fonts/MouseMemoirs-Regular.ttf);
+}
+
+* {
+  font-family: myFont;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  width: 600px !important;
+  grid-template-rows: repeat(3, 5rem);
+  text-align: center;
+  background-color: gold;
+  padding: 2rem;
+  justify-items: center;
+  border-radius: 12px;
+
+}
+.header {
+  display: grid;
+  color: aliceblue;
+
+}
+.input {
+  display: grid;
+  border-radius: 1rem;
+  padding: .5rem;
+  font-size: 1.6rem;
+  outline: none;
+  width: 30%;
+  text-align: center;
+  color-adjust: white;
+  
+}
+
+.output {
+  display: grid;
+  color: black;
+  margin: 2rem 0 0;
+}
