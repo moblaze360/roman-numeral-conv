@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import ConvertInput from "./Input";
 import ConvertOutput from "./Output";
 import convertToRoman from "./convertToRoman";
+import convertFromRoman from "./convertFromRoman";
 
 import "./index.css";
 
@@ -15,9 +16,10 @@ class App extends React.Component {
     this.handleInput = this.handleInput.bind(this);
   }
 
+
   handleInput(e) {
     this.setState({
-      output: convertToRoman(e.target.value)
+      output: convertToRoman(e.target.value) || convertFromRoman(e.target.value)
     });
   }
 
@@ -34,3 +36,4 @@ class App extends React.Component {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+
