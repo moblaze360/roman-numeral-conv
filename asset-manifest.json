@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/roman-numeral-conv/static/css/main.72415dc8.chunk.css",
+    "main.js": "/roman-numeral-conv/static/js/main.872b8aa7.chunk.js",
+    "main.js.map": "/roman-numeral-conv/static/js/main.872b8aa7.chunk.js.map",
+    "runtime-main.js": "/roman-numeral-conv/static/js/runtime-main.70cf302d.js",
+    "runtime-main.js.map": "/roman-numeral-conv/static/js/runtime-main.70cf302d.js.map",
+    "static/js/2.b484f2e7.chunk.js": "/roman-numeral-conv/static/js/2.b484f2e7.chunk.js",
+    "static/js/2.b484f2e7.chunk.js.map": "/roman-numeral-conv/static/js/2.b484f2e7.chunk.js.map",
+    "index.html": "/roman-numeral-conv/index.html",
+    "precache-manifest.f69999290ac9432331294b047e94e066.js": "/roman-numeral-conv/precache-manifest.f69999290ac9432331294b047e94e066.js",
+    "service-worker.js": "/roman-numeral-conv/service-worker.js",
+    "static/css/main.72415dc8.chunk.css.map": "/roman-numeral-conv/static/css/main.72415dc8.chunk.css.map",
+    "static/js/2.b484f2e7.chunk.js.LICENSE.txt": "/roman-numeral-conv/static/js/2.b484f2e7.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/roman-numeral-conv/static/media/MouseMemoirs-Regular.a8ce62e7.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70cf302d.js",
+    "static/js/2.b484f2e7.chunk.js",
+    "static/css/main.72415dc8.chunk.css",
+    "static/js/main.872b8aa7.chunk.js"
+  ]
+}
